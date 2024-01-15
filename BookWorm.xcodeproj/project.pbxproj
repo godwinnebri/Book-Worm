@@ -14,6 +14,7 @@
 		CE9150DA2B4688A4000C5DD6 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9150D92B4688A4000C5DD6 /* Book.swift */; };
 		CE9150DC2B4689D7000C5DD6 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9150DB2B4689D7000C5DD6 /* AddBookView.swift */; };
 		CED6D6702B54423900C8437F /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6D66F2B54423900C8437F /* RatingView.swift */; };
+		CED6D6722B544EAB00C8437F /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6D6712B544EAB00C8437F /* EmojiRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		CE9150D92B4688A4000C5DD6 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		CE9150DB2B4689D7000C5DD6 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		CED6D66F2B54423900C8437F /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		CED6D6712B544EAB00C8437F /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				CE2BF09A2B30AF4F0038AA55 /* ContentView.swift */,
 				CE9150DB2B4689D7000C5DD6 /* AddBookView.swift */,
 				CED6D66F2B54423900C8437F /* RatingView.swift */,
+				CED6D6712B544EAB00C8437F /* EmojiRatingView.swift */,
 				CE9150D92B4688A4000C5DD6 /* Book.swift */,
 				CE2BF09C2B30AF530038AA55 /* Assets.xcassets */,
 				CE2BF09E2B30AF530038AA55 /* Preview Content */,
@@ -150,6 +153,7 @@
 				CE2BF0992B30AF4F0038AA55 /* BookWormApp.swift in Sources */,
 				CE9150DA2B4688A4000C5DD6 /* Book.swift in Sources */,
 				CED6D6702B54423900C8437F /* RatingView.swift in Sources */,
+				CED6D6722B544EAB00C8437F /* EmojiRatingView.swift in Sources */,
 				CE9150DC2B4689D7000C5DD6 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
