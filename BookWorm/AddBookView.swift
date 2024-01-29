@@ -47,11 +47,20 @@ struct AddBookView: View {
                         modelContext.insert(newBook)
                         dismiss()
                     }
+                    .disabled(ValidateFields())
                 }
                 
             }
             .navigationTitle("Add book")
             .navigationBarTitleDisplayMode(.inline)
+        }
+    }
+    
+    func ValidateFields() -> Bool {
+        if title.isEmpty || author.isEmpty {
+            return true
+        } else {
+            return false
         }
     }
 }

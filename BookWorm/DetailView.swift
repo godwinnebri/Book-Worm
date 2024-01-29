@@ -41,6 +41,10 @@ struct DetailView: View {
                 RatingView(rating: .constant(book.rating))
                     .font(.title)
                 
+                Text(formatDate())
+                    .padding()
+                    .font(.callout)
+                
             } //scrollview
             .navigationTitle(book.title)
             .navigationBarTitleDisplayMode(.inline)
@@ -61,6 +65,13 @@ struct DetailView: View {
         modelContext.delete(book)
         dismiss()
     }
+    
+    func formatDate() -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MMMM dd, yyyy"
+        return dateFormatter.string(from: book.date)
+    }
+    
 }
 
 #Preview {
